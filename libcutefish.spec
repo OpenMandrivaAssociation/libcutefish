@@ -40,3 +40,4 @@ Cutefish desktop interface library, based on QQC2.
 %make_install -C build
 
 %files
+%{_libdir}/qt5/qml/Cutefish/
