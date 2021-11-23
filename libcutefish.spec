@@ -30,11 +30,17 @@ BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  pkgconfig(Qt5X11Extras)
 BuildRequires:  pkgconfig(Qt5Xml)
 
+%description
+Cutefish desktop interface library, based on QQC2.
+
+%package -n %{libname}
+Summary:        Dynamic libraries from %{name}
+Group:          System/Libraries
 Provides:       cutefish
 Provides:       libcutefish
 
-%description
-Cutefish desktop interface library, based on QQC2.
+%description -n %{libname}
+Dynamic libraries from %{name}.
 
 %prep
 %autosetup -p1
