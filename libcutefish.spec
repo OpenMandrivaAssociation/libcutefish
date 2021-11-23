@@ -5,7 +5,7 @@ Summary:        Cutefish System library
 License:        GPL-3.0-or-later
 Group:          Development/Libraries/Other
 URL:            https://github.com/cutefishos/libcutefish
-Source:         https://github.com/cutefishos/libcutefish/archive/%{version/}%{name}-%{version}.tar.xz
+Source:         https://github.com/cutefishos/libcutefish/archive/%{version/}%{name}-%{version}.tar.gz
 BuildRequires:  cmake
 BuildRequires:  cmake(KF5BluezQt)
 BuildRequires:  cmake(KF5KIO)
@@ -30,7 +30,7 @@ BuildRequires:  pkgconfig(Qt5Xml)
 Cutefish desktop interface library, based on QQC2.
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 %cmake
