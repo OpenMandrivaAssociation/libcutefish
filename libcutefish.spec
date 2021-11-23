@@ -5,7 +5,7 @@ Summary:        Cutefish System library
 License:        GPL-3.0-or-later
 Group:          Development/Libraries/Other
 URL:            https://github.com/cutefishos/libcutefish
-Source:         https://github.com/cutefishos/libcutefish/archive/%{version/}%{name}-%{version}.tar.gz
+Source0:         https://github.com/cutefishos/libcutefish/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  cmake
 BuildRequires:  cmake(KF5BluezQt)
 BuildRequires:  cmake(KF5KIO)
