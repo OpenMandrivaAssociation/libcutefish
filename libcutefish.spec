@@ -29,6 +29,7 @@ BuildRequires:  pkgconfig(Qt5Test)
 BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  pkgconfig(Qt5X11Extras)
 BuildRequires:  pkgconfig(Qt5Xml)
+BuildRequires:	pkgconfig(libcanberra)
 
 %description
 Cutefish desktop interface library, based on QQC2.
