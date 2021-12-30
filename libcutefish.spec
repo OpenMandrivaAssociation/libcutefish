@@ -3,7 +3,7 @@
 %define libname	%mklibname %{oname} %{major}
 
 Name:           libcutefish
-Version:        0.5
+Version:        0.7
 Release:        1
 Summary:        Cutefish System library
 License:        GPL-3.0-or-later
