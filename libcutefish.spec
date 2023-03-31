@@ -4,7 +4,7 @@
 
 Name:           libcutefish
 Version:        0.7
-Release:        1
+Release:        2
 Summary:        Cutefish System library
 License:        GPL-3.0-or-later
 Group:          Development/Libraries/Other
